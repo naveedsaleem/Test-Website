@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  // background-color: #d4c6b1;
+  background-color: black;
+}
 .home {
 
   .logo {
@@ -14,45 +19,70 @@
 
   .pg-title {
     padding: 10px 10px;
+    color: white;
   }
 
-  .hd-imag { // extra
-
-    border: 2px solid black;
-    width: 100%;
-    height: 200px;
+  .hd-img { // extra
+    // border: 2px solid darkgoldenrod;
+    // width: 100%;
+    // height: 200px;
     font-size: 3rem;
     text-align: center;
+
+    img {
+      border: 1px solid darkgoldenrod;
+      width: 100%;
+      height: 250px;
+      border-radius: 15px;
+    }
+
   }
 
   .sect-topNine {
-  
-    .title-topNine {
-        margin-top: 7%;
-        height: 40px;
-        border: 2px solid black;
-        font-size: 3rem;
-    }
-
-    .topNine {
-
-      border: 2px solid black;
-      display: flex;
-      margin-top: 2%;
-      margin-bottom: 5%;
-      flex-wrap: wrap;
-
-    }
     
-    .topNine div {
-      width: 32%;
-      margin: auto;
-      margin-top: 3%;
-      margin-bottom: 3%;
+    .title-topNine {
+      margin: 7% 0% 3% 0%;
+      height: 40px;
+      border: 2px solid black;
       font-size: 3rem;
-      text-align: center;
-      border: 2px solid red;
-      height: 230px;      
+
+      h1 {
+        color: white;
+      }
+      
+    }
+
+    .middle-content {
+
+      border: solid 1.5px darkgoldenrod;
+      border-radius: 8px;
+      margin-bottom: 20px;
+
+      .topNine {
+        border: 2px solid black;
+        display: flex;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        flex-wrap: wrap;
+        color: white;
+
+        img {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 20px;
+          border-radius: 12px;
+        }
+      }
+      
+      .topNine div {
+        width: 30%;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        font-size: 2rem;
+        text-align: center;
+        height: 289px;
+      }
     }
 
   }

@@ -135,8 +135,6 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #d4c6b1;
-  /* background-color: white; */
 }
 h1,
 h2,
@@ -181,10 +179,10 @@ header {
   justify-content: space-between;
   margin-top: 4%;
   margin-bottom: 4%;
-  border: 2px solid #b010102e;
-  border-radius: 30px;
+  border: 2px solid darkgoldenrod;
+  border-radius: 16px;
   /* background-color: black; */
-  /* background-image: url("img_tree.png"); */
+  /* background-image: url("../img/header.jpeg"); */
 }
 @media (max-width: 500px) {
   header {
@@ -203,10 +201,16 @@ header {
   }
 }
 header nav a {
+  /*
+            padding: 20px;
+            text-decoration: none;  
+            font-size: 1.8rem;
+            color: @shark;
+            */
   padding: 40px;
   text-decoration: none;
   font-size: 2.1rem;
-  color: black;
+  color: white;
 }
 @media (max-width: 500px) {
   header nav a {
@@ -215,13 +219,18 @@ header nav a {
 }
 .footer {
   width: 100%;
-  background: white;
+  background: black;
+  margin-bottom: 20px;
 }
 .footer p {
   text-align: center;
-  color: #212529;
-  font-size: 1.6rem;
+  color: white;
+  font-size: 2rem;
   padding: 20px;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
 }
 .home .logo {
   height: 160px;
@@ -237,36 +246,54 @@ header nav a {
 }
 .home .pg-title {
   padding: 10px 10px;
+  color: white;
 }
-.home .hd-imag {
-  border: 2px solid black;
-  width: 100%;
-  height: 200px;
+.home .hd-img {
   font-size: 3rem;
   text-align: center;
 }
+.home .hd-img img {
+  border: 1px solid darkgoldenrod;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}
 .home .sect-topNine .title-topNine {
-  margin-top: 7%;
+  margin: 7% 0% 3% 0%;
   height: 40px;
   border: 2px solid black;
   font-size: 3rem;
 }
-.home .sect-topNine .topNine {
+.home .sect-topNine .title-topNine h1 {
+  color: white;
+}
+.home .sect-topNine .middle-content {
+  border: solid 1.5px darkgoldenrod;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.home .sect-topNine .middle-content .topNine {
   border: 2px solid black;
   display: flex;
   margin-top: 2%;
   margin-bottom: 5%;
   flex-wrap: wrap;
+  color: white;
 }
-.home .sect-topNine .topNine div {
-  width: 32%;
+.home .sect-topNine .middle-content .topNine img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.home .sect-topNine .middle-content .topNine div {
+  width: 30%;
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  border: 2px solid red;
-  height: 230px;
+  height: 289px;
 }
 .about .header-image {
   border-top: 2px dashed #C0C0C0;
